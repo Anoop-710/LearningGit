@@ -1,0 +1,30 @@
+ARCHITECTURE - 3 states
+
+Modified - changes made but not committed to the database
+Staged - Marking a modified file in its current state to go into database in the next commit
+Committed - Data is safely saved in local git database
+
+
+3 sections
+Working tree - Single checkout of any version of the project
+Staging Area - file located in .git directory containing about what will g in your next commit
+.git directory(repo) - Stores metadata of the snapshots for different versions of the project
+
+
+Git commands
+cd "path"
+mkdir
+git init - initializing repository
+ls - lists files in current directory
+ls -a : -a shows hidden files
+touch - creates new files
+git status 
+git add "sample.txt"- to add the changes
+git rm --cached <file>..." to un-stage
+git add .(dot) - to commit changes to all the files
+gedit "fileName.(extn)"
+git commit -m "updated git commands" - commit changes with messages
+
+
+
+Github - web application used to host remote repositories
